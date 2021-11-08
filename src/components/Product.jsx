@@ -63,10 +63,13 @@ import styled from "styled-components";
     }
   `;
   
+
+
   const Product = ({ item }) => {
     return (
       <Container>
         <Circle />
+        <Image src={item.img} />
         <Info>
           <Icon>
             <ShoppingCartOutlined />
@@ -81,6 +84,5 @@ import styled from "styled-components";
       </Container>
     );
   };
-  
   export default Product;
   
