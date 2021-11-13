@@ -65,23 +65,23 @@ import styled from "styled-components";
   
 
 
-  const Product = ({ item }) => {
+  const Product = ({ item}) => {
     return (
       <Container>
-        <Circle />
-        <Image src={item.img} />
-        <Info>
-          <Icon>
-            <ShoppingCartOutlined />
-          </Icon>
-          <Icon>
-            <SearchOutlined />
-          </Icon>
-          <Icon>
-            <FavoriteBorderOutlined />
-          </Icon>
-        </Info>
-      </Container>
+      <Circle />
+      <Image src={item.img} />
+      <Info>
+        <Icon>
+          <ShoppingCartOutlined />
+        </Icon>
+        <Icon>
+          <SearchOutlined />
+        </Icon>
+        <Icon>
+          <FavoriteBorderOutlined />
+        </Icon>
+      </Info>
+    </Container>
     );
   };
   export default Product;

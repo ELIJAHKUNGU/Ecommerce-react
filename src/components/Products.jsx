@@ -8,14 +8,15 @@ const Container = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
 `;
-const Slide = styled.div``;
-const   Image = styled.img``;
+
 const Products = () => {
   return (
     <Container>
       {popularProducts.map((item) => (
-        <Product item={item} key={item.id} />
+      
+        <Product item={item} key={item.id}/>
       ))}
+      
     </Container>
   );
 };
